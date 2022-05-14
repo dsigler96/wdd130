@@ -1,0 +1,82 @@
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+nav a,
+#hero-msg h1,
+#hero-msg h4,
+.button-box,
+main section {
+    text-align: center;
+}
+
+#background {
+    height: 725px;
+    background-color: #E7C24F;
+}
+
+body {
+    background-color: #FDD6C3;
+  }
+
+header {
+    background-color: #E7C24F;
+  }
+
+nav a:hover {
+    background-color: #A43312;
+    color: #FDD6C3;
+}
+
+.home-title {
+    color: #396E94;
+}
+
+h4 {
+    color: #FDD6C3;
+}
+
+.book, .join {
+    background-color: #FDD6C3;
+    color: #E7C24F;
+}
+
+.book:hover, .join:hover {
+    background-color: #E7C24F;
+    color: #FDD6C3;
+}
+
+.msg h2, .msg p {
+    color: #A43312;
+}
+
+.msg{
+    background-color: #E7C24F;
+}
+
+footer {
+    background-color: #396E94;
+}
+
+.icon {
+    width: 80px;
+}
+
+#hero-img {
+    width: 100%;
+}
+
+nav a,
+.book, 
+.join,
+footer a {
+    text-decoration: none;
+    color: #396E94;
+}
+
+footer h3,
+a:hover {
+    text-decoration: underline;
+    color: #E7C24F;
+}
