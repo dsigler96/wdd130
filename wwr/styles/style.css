@@ -224,8 +224,98 @@ footer {
     align-items: center;
 }
 
+/*
+Rivers.html CSS
+*/
+
+#child-hero {
+    display:grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+}
+
+#child-hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+
+#child-hero-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+    text-align: center;
+}
+
+#child-hero-msg h4 {
+    color: #A43312;
+}
+
+#child-hero-img {
+    width: 100%;
+}
+
+.child-button-box {
+    text-align: center;
+}
+
+.rivers-grid{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.desolation-card {
+    grid-row: 1/2;
+}
+
+.salmon-card {
+    grid-row: 2/3;
+}
+
+.grand-card {
+    grid-row: 3/4;
+}
+
+.desolation-card h2 {
+    text-align: left;
+}
+.desolation-card p {
+    grid-column: 1/2;
+    position: relative;
+    left: 630px;
+    width: 600px;
+    text-align: left;
+}
+
+.salmon-card h2 {
+    text-align: left;
+}
+.salmon-card p {
+    position: relative;
+    grid-column: 2/3;
+    left: 630px;
+    width: 600px;
+    text-align: left;
+}
+
+.grand-card h2 {
+    text-align: left;
+}
+.grand-card p {
+    position: relative;
+    grid-column: 3/4;
+    left: 630px;
+    width: 600px;
+    text-align: left;
+}
+
+hr {
+    align-items: center;
+}
+
+
 @media screen and (max-width: 900px) {
-    #hero, .home-grid {
+    #hero, .home-grid, .rivers-grid {
         display: block;
         height: auto;
     }
