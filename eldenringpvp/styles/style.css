@@ -82,7 +82,17 @@ footer .social img {
 
 /*Character Builder CSS*/
 
+#CBhome-grid {
+    width: 100%;
+    display:grid;
+    grid-template-columns: repeat(6, 1fr);
+}
 
+#builder {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 /*Dropdown Button forr W12 */
 .dropbtn {
@@ -96,6 +106,7 @@ footer .social img {
   .dropdown {
     position: relative;
     display: inline-block;
+    text-align: left;
   }
   
   .dropdown-content {
@@ -121,3 +132,70 @@ footer .social img {
   .dropdown:hover .dropbtn {background-color: #E7C24F;}
 
 /*End of W12 dropdown content*/
+
+/*Matchmaking CSS*/
+.mm-home-grid {
+    display: grid;
+    grid-template-columns: 35% 30% 35%;
+    grid-template-rows: 60% 10% 25%;
+    justify-content: center;
+}
+
+#radahn {
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+
+h4, p{
+    color: #b17618;
+    text-align: center;
+    
+}
+
+h4 {
+    grid-row: 2/3;
+    padding: 10px;
+}
+
+h4:nth-last-of-type(1) {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+h4:nth-last-of-type(2) {
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+
+queue-button {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.queue {
+    background-color: #627C85;
+    color: #000000;
+    padding: 16px;
+    font-size: 16px;
+}
+
+.queue:hover{
+    background-color: #b17618;
+}
+
+.queue:active {
+    background-color: #627C85;
+}
+
+.mm-home-grid p {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    font-size: 60px;
+}
+
+#chat-box {
+    grid-column: 3/4;
+    grid-row: 3/4;
+    margin-right: auto;
+    padding: 20px;
+}
