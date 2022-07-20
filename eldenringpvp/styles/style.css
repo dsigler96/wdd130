@@ -79,3 +79,45 @@ footer a:hover {
 footer .social img {
     padding-top: 15px;
 }
+
+/*Character Builder CSS*/
+
+
+
+/*Dropdown Button forr W12 */
+.dropbtn {
+    background-color: #627C85;
+    color: #000000;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #627C85;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #E7C24F;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #E7C24F;}
+
+/*End of W12 dropdown content*/
